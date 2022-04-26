@@ -247,7 +247,7 @@ const Formulario = () => {
                         listaformulario.map(item=>(
                           
                             <li className='list-group-item' key={item.id}>
-                                <img src = {`https://picsum.photos/350/350?random=${item.id}`}/>
+                                <img alt = "" src = {`https://picsum.photos/350/350?random=${item.id}`}/>
                                 <span className='lead'>{item.persona_nombre}-{item.persona_apellido}-{item.persona_telefono}-{item.persona_cedula}-{item.persona_correo}-{item.persona_direccion}-{item.persona_nacionalidad}</span>
                                 <button className='btn btn-danger btn-sm float-end mx-2' onClick={()=> eliminar(item.id)}>
                                 Eliminar
