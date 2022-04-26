@@ -4,6 +4,7 @@ import {firebase} from '../firebase'
 
 
 
+
 const Formulario = () => {
     const [nombres, setnombres] = React.useState('')
     const [apellidos, setapellidos] = React.useState('')
